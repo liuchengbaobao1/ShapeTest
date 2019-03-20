@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShapeTest</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling1">ScrollingActivity1</string>
+
+
+    <string name="aaaa">AAAA</string>
+    <string name="bbbb">BBBB</string>
+    <string name="cccc">CCCC</string>
+    <string name="dddd">DDDD</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="send_message">Send message</string>
+    <string name="call_handler">Call handler</string>
+</resources>

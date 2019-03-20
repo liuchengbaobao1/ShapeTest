@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA7199</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="prompt_success">#31c27c</color>
+    <color name="prompt_error">#ff0000</color>
+    <color name="prompt_warning">#f0633d</color>
+    <color name="material_primary_color">#3f51b5</color>
+    <color name="material_primary_color_dark">#303f9f</color>
+
+
+    <color name="blue_title">#00abf3</color>
+    <color name="common_txt">#676a6e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="common_item_sep_line">#e6e6e6</color>
+
+
+    <color name="immersive_translucent">#00ffffff</color>
+</resources>

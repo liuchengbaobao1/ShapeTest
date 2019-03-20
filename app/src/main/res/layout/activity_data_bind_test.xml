@@ -1,0 +1,74 @@
+<layout>
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.lcb.test.demo.databinding.UserModel" />
+
+        <variable
+            name="event"
+            type="com.lcb.test.demo.databinding.EventListener" />
+
+        <variable
+            name="btn1"
+            type="String" />
+
+        <variable
+            name="btn2"
+            type="String" />
+
+        <variable
+            name="btn3"
+            type="String" />
+
+        <variable
+            name="btn4"
+            type="String" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DataBinding" />
+
+        <Button
+            android:id="@+id/btn_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="按钮" />
+
+        <TextView
+            android:id="@+id/showUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{user.userName+user.age}" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{event.click1}"
+            android:text="@{btn1}" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{event::click2}"
+            android:text="@{btn2}" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->event.click3(btn4)}"
+            android:text="@{btn3}" />
+    </LinearLayout>
+</layout>
+

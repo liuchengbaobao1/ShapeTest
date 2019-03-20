@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lcb.test">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".formal.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <!-- 欢迎页.formal.ui.activity.SplashActivity -->
+        <!-- 直接进入测试主页 .demo.OldMainActivity -->
+        <!-- android:name=".formal.ui.activity.SplashActivity" -->
+        <activity
+            android:name=".formal.ui.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".formal.ui.activity.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.OldMainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.style.Style1Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".demo.style.Style2Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".demo.style.Style3Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".demo.style.Style4Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".demo.style.Style5Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name=".demo.style.Style6Activity" />
+        <activity
+            android:name=".demo.style.Style7Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".demo.style.Style8Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".demo.Float.FloatLabeledEditTextActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".demo.CollapsingToolbarLayout.AppBarLayoutActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.CollapsingToolbarLayout.CollapsingToolbarLayoutActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.CollapsingToolbarLayout.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.CollapsingToolbarLayout.ScrollingActivity1"
+            android:label="@string/title_activity_scrolling1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.materialdesign.FloatingActionButtonActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.materialdesign.TextInputLayoutActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.materialdesign.TabLayoutActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".demo.materialdesign.NavigationViewActivity" />
+        <activity
+            android:name=".demo.materialdesign.view.MySnackbarActiviyt"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".formal.ui.activity.MainActivity"
+            android:theme="@style/AppThemeActivity" />
+        <activity
+            android:name=".formal.ui.activity.CollapsingDetialsActivity"
+            android:theme="@style/AppThemeActivity" />
+        <activity
+            android:name=".demo.customtoolbar.CustomToolBarActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".formal.mvp.activity.MvpLoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.custom.IndicatorMainActivity"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name=".demo.custom.IndicatorMainActivity1"
+            android:theme="@style/AppThemeToolBar" />
+        <activity
+            android:name=".demo.dagger.DaggerActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.RxjavaRetrofitOkHttp.RxJavaLoginTestActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.databinding.DataBindTestActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.mvp.activity.MvpLoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.fragmentinactivity.activity.FragmentInActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.fragmentinactivity.activity.UserListActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.fragmentinactivity.activity.UserDetialActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.vue.VueActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.vue.nextvue.VueNextActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.calendar.CalendarActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.leftdelete.LeftDeleteActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.LeakCanaryActivity.LeakCanaryActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.glide.GlideActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.lifecycler.LifeBActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.lifecycler.LifeAActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".demo.flowlayout.FlowLayoutActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
